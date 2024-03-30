@@ -1,0 +1,3 @@
+[submodule "webappanalyzer"]
+	path = webappanalyzer
+	url = https://github.com/enthec/webappanalyzer
