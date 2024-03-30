@@ -52,8 +52,16 @@ Listen to events with `site.on(eventName, callback)`. Use the `page` parameter t
 
 ### Updating Definitions
 
+Update locally:
+
 ```
 git submodule update --init --recursive
+```
+
+Update remote:
+
+```
+git submodule update --remote
 ```
 
 ---

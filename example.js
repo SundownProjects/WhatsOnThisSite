@@ -1,4 +1,4 @@
-const WhatsOnThisSite = require('./src/driver');
+const WhatsOnThisSite = require('WhatsOnThisSite');
 
 const options = {
   debug: false, // verbose output

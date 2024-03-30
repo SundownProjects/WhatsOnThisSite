@@ -20,7 +20,7 @@
     "type": "git",
     "url": "git+https://github.com/SundownProjects/WhatsOnThisSite.git"
   },
-  "main": "driver.js",
+  "main": "src/driver.js",
   "files": [
     "categories.json",
     "index.js",

@@ -29,7 +29,9 @@ const chromiumArgs = CHROMIUM_ARGS
 const extensions = /^([^.]+$|\.(asp|aspx|cgi|htm|html|jsp|php)$)/;
 
 const categories = JSON.parse(
-  fs.readFileSync(path.resolve(`./webappanalyzer/src/categories.json`)),
+  fs.readFileSync(
+    path.resolve(`${__dirname}/../webappanalyzer/src/categories.json`),
+  ),
 );
 
 let technologies = {};
@@ -41,7 +43,9 @@ for (const index of Array(27).keys()) {
     ...technologies,
     ...JSON.parse(
       fs.readFileSync(
-        path.resolve(`./webappanalyzer/src/technologies/${character}.json`),
+        path.resolve(
+          `${__dirname}/../webappanalyzer/src/technologies/${character}.json`,
+        ),
       ),
     ),
   };
