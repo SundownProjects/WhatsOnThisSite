@@ -31,7 +31,7 @@
     "whatsonthissite": "./cli.js"
   },
   "dependencies": {
-    "puppeteer": "~22.6.1"
+    "puppeteer": "~22.11.2"
   },
   "devDependencies": {
     "eslint": "^8.57.0",
